@@ -1,3 +1,12 @@
+1. Bootrun spring application.
+2. Send request to http://localhost:8080/checkout with example body:
+   {
+    "barCodes": ["12345678", "12345678", "12345678", "12345678", "47358756", "47358756", "47358756"]
+   }
+   
+
+
+
 # Coding Kata
 
 All technical interviews taken with _Haiilo_ will be performed in the same manner, in order to minimise variance in the recruitment process. This should ensure the interview process is fair to the candidates, and also that _Haiilo_ do not miss opportunities to hire good candidates.
