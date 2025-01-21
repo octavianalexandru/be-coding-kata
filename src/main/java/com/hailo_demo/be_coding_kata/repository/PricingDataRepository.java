@@ -13,6 +13,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A repository like component, which deserializes a json file and loads up information about pricing for a list of products at startup(default eager bean init is used).
+ * Provides a method to get the deserialized data.
+ */
 @Slf4j
 @Component
 public class PricingDataRepository {

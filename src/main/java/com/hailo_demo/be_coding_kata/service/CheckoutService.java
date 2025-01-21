@@ -12,6 +12,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Service for calculating a price based on a list of product barcodes, and a pricing table used to persist prices and offers.
+ * It's built based on the premise that the client is not capable of grouping items together and having the number of items specified in the request, thus,
+ * this is done on serverside.
+ */
 @Slf4j
 @Service
 @AllArgsConstructor

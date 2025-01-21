@@ -5,6 +5,10 @@ import com.hailo_demo.be_coding_kata.repository.PricingDataRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+
+/**
+ * Service that gets pricing info, previously deserialized and loaded in the repository.
+ */
 @Slf4j
 @Service
 @RequiredArgsConstructor

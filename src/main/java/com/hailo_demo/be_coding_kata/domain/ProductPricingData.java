@@ -4,6 +4,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
 
+/**
+ * DTO for pricing information that currently is persisted in a json file.
+ */
 @Data
 @Builder
 public class ProductPricingData {

@@ -11,7 +11,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
+/**
+ * Controller for checkout operations for a checkout system. Currently only supports checkout method which only calculates a sum for a list of product barcodes
+ * received from a checkout client.
+ */
 @Slf4j
 @RestController
 @RequiredArgsConstructor

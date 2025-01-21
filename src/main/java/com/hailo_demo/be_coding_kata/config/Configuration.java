@@ -4,6 +4,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
+
+
+/**
+ * Configuration class which currently instantiates one resource that loads up the pricing-table.json
+ */
 @org.springframework.context.annotation.Configuration
 public class Configuration {
     @Bean

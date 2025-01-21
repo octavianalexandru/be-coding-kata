@@ -4,6 +4,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
 
+/**
+ * Domain class for offer pricing details. Part of ProductPricingData.
+ */
 @Data
 @Builder
 public class Offer {
