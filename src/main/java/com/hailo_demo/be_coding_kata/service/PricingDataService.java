@@ -14,4 +14,6 @@ public class PricingDataService {
     public ProductPricingData getProductPricing(String barcode) {
         return pricingDataRepository.getProductPriceMap().get(barcode);
     }
+
+    //methods to update and create new entries in the product pricing storage. given we're using a json file as storage, I didn't see the usefulness to implement them
 }
