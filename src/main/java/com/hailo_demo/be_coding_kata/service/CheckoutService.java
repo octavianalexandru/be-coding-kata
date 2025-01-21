@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -18,7 +19,7 @@ public class CheckoutService {
 
     private final PricingDataService pricingDataService;
 
-    public Double getPrice(ArrayList<String> barCodes) {
+    public Double getPrice(List<String> barCodes) {
         if(barCodes.isEmpty())
             throw new BarcodesForCheckoutListEmpty();
         Double sum = 0D;

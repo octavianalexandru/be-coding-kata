@@ -1,11 +1,13 @@
 package com.hailo_demo.be_coding_kata.domain.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Data
+@AllArgsConstructor
 public class CheckoutDTO {
 
-    private ArrayList<String> barCodes;
+    private List<String> barCodes;
 }
