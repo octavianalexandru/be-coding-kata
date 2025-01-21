@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hailo_demo.be_coding_kata.domain.Offer;
 import com.hailo_demo.be_coding_kata.domain.ProductPricingData;
-import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+@Slf4j
 @Component
 public class PricingDataRepository {
     private final ObjectMapper objectMapper;
@@ -54,6 +55,7 @@ public class PricingDataRepository {
 
                 productPriceMap.put(barcode, productPricingData);
             }
+            log.info("Pricing data loaded: {}", productPriceMap);
         } catch (IOException e) {
             throw new RuntimeException("Failed to load pricing data", e);
         }
