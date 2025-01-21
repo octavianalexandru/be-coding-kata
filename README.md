@@ -1,5 +1,6 @@
-1. Bootrun spring application.
-2. Send request to http://localhost:8080/checkout with example body:
+1. Gradle build.
+2. Bootrun spring application.
+3. Send request to http://localhost:8080/checkout with example body:
    {
     "barCodes": ["12345678", "12345678", "12345678", "12345678", "47358756", "47358756", "47358756"]
    }
