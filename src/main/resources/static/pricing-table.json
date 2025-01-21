@@ -1,0 +1,32 @@
+[
+  {
+    "barcode": "12345678",
+    "name": "Apple",
+    "priceForOne": 30,
+    "offer": {
+      "numberOfItemsForOffer": 2,
+      "sumOfItemsOffer": 45
+    }
+  },
+  {
+    "barcode": "47358756",
+    "name": "Banana",
+    "priceForOne": 50,
+    "offer": {
+      "numberOfItemsForOffer": 3,
+      "sumOfItemsOffer": 130
+    }
+  },
+  {
+    "barcode": "59674659",
+    "name": "Peach",
+    "priceForOne": 60,
+    "offer": null
+  },
+  {
+    "barcode": "49704654",
+    "name": "Kiwi",
+    "priceForOne": 20,
+    "offer": null
+  }
+]
